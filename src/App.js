@@ -9,7 +9,6 @@ import './style.css';
 import Stopwatch from './Hobby';
 import FaceBook from './FaceBook';
 import GenelalButton from './GeneralButton';
-import Twitter from './Twitter';
 import Clock from './Clock';
 
 export default class App extends Component {
@@ -35,7 +34,7 @@ export default class App extends Component {
           <div>
             <div className="header">
               <div className="info">
-                <h1 className="margin-50 text-center cover-text">sugiyama portfolio</h1>
+                <div className="text-center cover-text">sugiyama portfolio</div>
               </div>
               <div className="text-center">
                 <ButtonToolbar>
